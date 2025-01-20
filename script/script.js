@@ -104,4 +104,4 @@ for (i = 0; i < str.length; i++) {
     if (min > +buffer) min = +buffer;
     if (max < +buffer) max = +buffer;
     buffer = '';
-}
+};
