@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="mane">
+      <h1>MYLOGO.COM</h1>
+      <div class="line"></div>
+      <h2
+        class="tooltip"
+        data-content="Beautiful, free images and photos that you can download and use for any project."
+      >
+        PORTFOLIO
+      </h2>
+      <div class="portfolio" id="portfolio">
+        <ul class="portfolio__filter" data-filterindex="4">
+          <li class="portfolio__filter-button" data-filterindex="0">
+            Show all
+          </li>
+          <li class="portfolio__filter-button" data-filterindex="1">Nature</li>
+          <li class="portfolio__filter-button" data-filterindex="2">Cars</li>
+          <li class="portfolio__filter-button" data-filterindex="3">People</li>
+        </ul>
+        <ul class="portfolio__list">
+          <li class="list__elem" data-filterindex="1">
+            <img src="content/mountains (1).jpg" alt="mountains" />
+            <h3>Mountains</h3>
+            <p>Lorem, ipsum dolor sit amet</p>
+          </li>
+          <li class="list__elem" data-filterindex="2">
+            <img src="content/cars3.jpg" alt="car" />
+            <h3>Car</h3>
+            <p>Lorem, ipsum dolor sit amet</p>
+          </li>
+          <li class="list__elem" data-filterindex="3">
+            <img src="content/people1.jpg" alt="people" />
+            <h3>People</h3>
+            <p>Lorem, ipsum dolor sit amet</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="filter.js"></script>
+    <script src="filter2.js"></script>
+  </body>
+</html>

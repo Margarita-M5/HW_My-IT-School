@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #ededed;
+}
+
+.mane {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.line {
+  max-width: 1000px;
+  height: 1px;
+  background-color: rgb(194, 194, 194);
+  margin: 30px 0;
+}
+
+ul {
+  list-style: none;
+  cursor: pointer;
+}
+
+.portfolio__filter {
+  display: flex;
+  gap: 10px;
+  padding: 25px 0;
+}
+
+.portfolio__filter-button {
+  padding: 10px 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.filter-button--active {
+  background-color: rgb(194, 194, 194);
+}
+
+.tooltip {
+  padding: 5px;
+  border: 1px solid rgb(194, 194, 194);
+  max-width: 160px;
+  cursor: help;
+}
+
+.tooltip-container {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid rgb(194, 194, 194);
+  background-color: white;
+  box-shadow: 0 0 5px rgb(194, 194, 194);
+  text-align: center;
+}
+
+.tooltip-content {
+  padding: 0;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 25px;
+}
+
+.portfolio__list {
+  display: flex;
+  gap: 15px;
+}
+
+.list__elem {
+  display: none;
+  width: 280px;
+  height: 320px;
+  padding: 10px 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+img {
+  width: 100%;
+  padding: 5px 0;
+}
+
+h3,
+p {
+  padding: 20px 0;
+}
+
+.filter-content--active--all {
+  display: block;
+}
+
+.filter-content--active {
+  display: block;
+}
